@@ -11,5 +11,8 @@ namespace MateoPugaProyectoII.Models
         [Range(8, 15)]
         public decimal Precio { get; set; }
 
+
+        public List<Promo>? promos { get; set; }
+
     }
 }

@@ -13,4 +13,6 @@ using MateoPugaProyectoII.Models;
         }
 
         public DbSet<MateoPugaProyectoII.Models.Burger> Burger { get; set; } = default!;
+
+public DbSet<MateoPugaProyectoII.Models.Promo> Promo { get; set; } = default!;
     }
